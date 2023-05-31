@@ -1,0 +1,52 @@
+.letra{color:#ffffff; font-size: 50px;text-shadow: red 0.1em 0.1em 0.5em; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: italic;}
+.letras{color:#ffffff; text-shadow: DodgerBlue 0.1em 0.1em 0.5em; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;font-style: italic; font-size: 40px;line-height: 40px; margin-bottom: 25px;}
+.promo{color:#FFD700; text-shadow: Gold 0.1em 0.1em 0.5em; font-size: 25px;font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;font-style: italic;}
+.texto{padding: 2%;font-family: "Times New Roman", Times, serif;font-size: 20px;text-align: justify;}
+
+
+ul,li,h3,p{margin:0; padding:0;}
+#movieposters { list-style:none; margin:0px 0; height:0px; }
+#movieposters li { display:inline; float:left;	-webkit-perspective: 500; -webkit-transform-style: preserve-3d;-webkit-transition-property: perspective; -webkit-transition-duration: 0.5s; }
+#movieposters li:hover { -webkit-perspective: 5000; }
+#movieposters li img { border:2px solid #fcfafa;padding:25px; -webkit-transform: rotateY(40deg);
+-moz-box-shadow:0 3px 10px #888; -webkit-box-shadow:0 3px 10px #888;-webkit-transition-property: transform; -webkit-transition-duration: 0.5s; }
+#movieposters li:hover img { -webkit-transform: rotateY(0deg); }
+#movieposters li:hover .movieinfo { -webkit-transform: rotateY(0deg); -webkit-box-shadow:0 5px 50px #1E90FF; margin:-170px 0 0 25px; }
+.movieinfo { border:1px solid #1E90FF; padding:20px; width:200px height:50px; background-color:#deddcd; margin:-180px 0 0 25px; position:absolute;
+-moz-box-shadow:0 20px 40px #888; -webkit-box-shadow:0 10px 30px #888;
+-webkit-transform: translateZ(30px) rotateY(30deg);-webkit-transition-property: transform, box-shadow, margin; -webkit-transition-duration: 0.5s; }
+.movieinfo h3 { color:#7a3f3a; font-variant: small-caps; font-family:Georgia,serif,Times; text-align:center; padding-bottom:15px; }
+.movieinfo p { padding-bottom:15px; }
+.movieinfo a { background-color:#7a3f3a; padding:5px 10px; color:#eee; text-decoration:none; display:block; width:100px; text-align:center; margin:0 auto;
+-moz-border-radius:5px; -webkit-border-radius:5px; }
+.movieinfo a:hover, .movieinfo a:focus { background-color:#6a191f; color:#fff;}
+
+
+
+.rodape{text-align:center;color:#ffffff;background: rgb(79,79,79);}
+#REPRE{ color: #1E90FF;text-align:center;padding:20px 0;  padding-top: 0%;font-family: "Times New Roman", Times, serif;font-size: 25px;text-shadow: #000000 1px 2px 3px;}
+
+
+@-webkit-keyframes swing
+{15%{ -webkit-transform: translateX(5px); transform: translateX(5px); }
+30%  { -webkit-transform: translateX(-5px);transform: translateX(-5px);  } 
+50%  {-webkit-transform: translateX(3px);transform: translateX(3px); }
+65%  {-webkit-transform: translateX(-3px);transform: translateX(-3px); }
+80%   { -webkit-transform: translateX(2px);transform: translateX(2px);}
+100%   {-webkit-transform: translateX(0);transform: translateX(0);  }
+}
+@keyframes swing{15% {-webkit-transform: translateX(5px);transform: translateX(5px); }
+30%   {-webkit-transform: translateX(-5px);transform: translateX(-5px); }
+50%   {-webkit-transform: translateX(3px);transform: translateX(3px);  }
+65%   {-webkit-transform: translateX(-3px);transform: translateX(-3px);  }
+80%   { -webkit-transform: translateX(2px);transform: translateX(2px);   }
+100%   { -webkit-transform: translateX(0);transform: translateX(0);    }
+}
+.swing:hover{-webkit-animation: swing 1s ease;animation: swing 1s ease;-webkit-animation-iteration-count: 1;animation-iteration-count: 1;}
+/*fim*/
+.molulo {text-align: center; font-size: 18px;font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;font-style: bold;}
+.molulos {text-align: center; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: 700;}
+.moduloss{padding:15px;text-align: justify;font-size: 16px; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.mod{padding:10px;font-size: 22px;color:#7CFC00; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;font-style: bold;}
+.modcor{ color:#FF0000; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700;}
+

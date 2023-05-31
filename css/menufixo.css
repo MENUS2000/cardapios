@@ -1,0 +1,35 @@
+.custom-navbar { margin-bottom: 0; background-color: #ffffff; }/*barra menu pequeno*/
+.custom-navbar .nav li a  {font-size: 20px;}
+.custom-navbar .nav li.active > a{background-color: transparent;color: #8B0000;font-weight: bold}
+
+@media(min-width:768px){
+.custom-navbar{padding: 20px 0;border-bottom: 0;background: 0 0;transition: all 0.3s ease;}
+.custom-navbar.top-nav-collapse {opacity:0.97;-moz-opacity: 0.97;filter: alpha(opacity=97);
+padding: 0;box-shadow: 0px 6px 9px 0px rgb(255,255,255);background: #ffffff;}}
+
+/*.custom-navbar  .navbar-brand:hover,..custom-navbar  .navbar-brand:focus { color: #ffffff;}
+.custom-navbar  .navbar-text { color: #000000;}*/
+.custom-navbar  .navbar-nav > li > a { color: #8B0000;font-weight: bold}
+.custom-navbar  .navbar-nav > li > a:hover,
+.custom-navbar  .navbar-nav > li > a:focus { transition:all 0.9s ease; border-radius:50%;font-family:arial, helvetica, sans-serif; font-size: 20px; color: #ffffff;  background-color: #8B0000;}
+
+.custom-navbar .navbar-nav > li > .dropdown-menu { background-color: #8B0000;}
+.custom-navbar .navbar-nav > li > .dropdown-menu > li > a {font-family:arial, helvetica, sans-serif; font-size: 20px; color: #ffffff;font-weight: bold}
+.custom-navbar .navbar-nav > li > .dropdown-menu > li > a:hover,
+.custom-navbar.navbar-nav > li > .dropdown-menu > li > a:focus {color: #8B0000;  background-color:#ffffff;}
+/*.custom-navbar .navbar-nav > li > .dropdown-menu > li > .divider {background-color: #FFFF00;}
+.custom-navbar .navbar-nav .open .dropdown-menu > .active > a,
+.custom-navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+/*.custom-navbar .navbar-nav .open .dropdown-menu > .active > a:focus {color: #ffffff; background-color: #87CEEB;}*/
+
+.custom-navbar .navbar-nav > .active > a,
+.custom-navbar .navbar-nav > .active > a:hover,
+.custom-navbar .navbar-nav > .active > a:focus { color: #ffffff; background-color: #8B0000;}
+.custom-navbar .navbar-nav > .open > a,
+.custom-navbar .navbar-nav > .open > a:hover,
+.custom-navbar .navbar-nav > .open > a:focus {  color: #ffffff;  background-color: #8B0000;}
+
+.custom-navbar .navbar-toggle {  background-color: #ffffff;}
+.custom-navbar .navbar-toggle:hover,
+.custom-navbar.navbar-toggle:focus { background-color: #ecf0f1;}
+.custom-navbar .navbar-toggle .icon-bar { background-color: #8B0000;}

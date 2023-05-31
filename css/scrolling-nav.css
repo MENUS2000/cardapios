@@ -1,0 +1,99 @@
+#tel{
+ height:40px;
+ width: 40px%;
+}
+
+header {
+  background-image: url('../img/fundo.jpg');
+  background-repeat: no-repeat;  
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+    color: white;
+    height: 100%;
+	text-align: center;
+}
+/*letras da primeira pagina
+header .introducaotexto .textoum { font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;  font-style: italic;font-size: 22px; line-height: 22px; margin-bottom: 25px;}
+*/header .introducaotexto .textodois {margin-top: 110px; font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase;font-weight: 700; font-size: 50px; line-height: 50px; margin-bottom: 25px;}
+@media (min-width: 768px){
+header .introducaotexto .textodois  {font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;text-transform: uppercase;	font-weight: 700;font-size: 75px;line-height: 75px;margin-bottom: 10%;}}
+/*fim das letras emissão*/
+section { padding: 100px 0;}
+section h2.section-heading {font-size: 40px;  margin-top: 0;  margin-bottom: 15px;}
+section h3.section-subheading { font-size: 20px;  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;  text-transform: none; font-style: italic; font-weight: 400; margin-bottom: 75px;}
+
+/*sobre*/
+.sobre  {
+	color:#ffffff;
+	background: #8B0000;	
+}
+#letrasobre{ color:#FFD700; text-shadow: black 1px 2px 5px; text-align:center;padding:20px 0;  padding-top: 0%;font-family: "Times New Roman", Times, serif;font-size: 50px;}
+.textoemissor{text-align: justify; font-family: "Times New Roman", Times, serif;font-size: 22px;}
+.tim{
+	margin-top: 60px;
+    border: 7px solid #DAA520;
+    border-radius:250px;
+    width: 350px;
+    height: 350px;  background-image: url('../img/logowd2.png');
+    background-position: center;
+    background-color: #ffffff;
+	background-repeat: no-repeat;}
+/*sobre fim*/
+/*Atuação*/
+.ATUACAO{ 
+    text-align: center;
+    background: #ffffff;
+}
+#montagenletra{ color:#8B0000; font-size: 45px;font-family: "Times New Roman", Times, serif;}
+
+.corestexto{text-align:center; color:#8B0000; }/*fim sistema*/
+/*Atuação fim*/
+
+/*Outros*/
+.OUTROS{    
+text-align: center;  
+background: #8B0000;}
+#titulooutros{padding:15px; color:#ffffff; text-shadow: #ffffff 1px 2px 5px; text-align:center;font-family: "Times New Roman", Times, serif;font-size: 50px;}
+.titulooutros1{padding:15px; text-align:center; color:#FFD700; }/*fim sistema*/
+.imgoutros{
+    background-color: #ffffff;
+	background-repeat: no-repeat;}
+#Outrostexto{ color:#ffffff;padding:15px; font-family: "Times New Roman", Times, serif;font-size: 30px;
+}
+/*background: linear-gradient(0deg, rgba(45,57,215,1) 0%,rgba(51,174,224,1)50%, rgba(51,174,224,1) 100%);
+*/}
+/*Outros fim*/
+/*contatos*/
+.contato {
+background: #ffffff;
+color:#ffffff;
+font-size:20px;	}
+#contletra{text-align: center; color:#8B0000; text-shadow: #8B0000 1px 2px 5px; font-family: "Times New Roman", Times, serif;font-size: 35px;}
+
+/*contatos fim*/
+
+.trabalho{
+background: #ffffff;
+color:#ffffff;
+font-size:20px;}
+
+#titulotrabaho{padding:15px; color:#000000; text-shadow: #ffffff 1px 2px 5px; text-align:center;font-family: 
+}
+
+.passagem  {
+background-color: #dc0b0b;
+background-image: linear-gradient(180deg, #dc0b0b 0%, #770810 50%, #FF0000 100%);
+
+/*background: #8B0000;*/}
+#passagemletra{
+font-size: 40px; color:#ffffff;  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+#passagemletra1{padding:15px; color:#FFD700; text-align:center;font-family: "Times New Roman", Times, serif;font-size: 50px;
+}
+
+#rodapesfimpagina{text-align:center;padding: 0-%;font-family: "Times New Roman", Times, serif;font-size: 20px;color:#00FF00;}
+#linhas {  margin-left: 10%;  margin-right: 10%;    border-width: 1px;}
+#correpre{text-align:center;font-size: 14px;color:#000000;}
+#correpre1{text-align:center;font-size: 18px;color:#ffffff;}
